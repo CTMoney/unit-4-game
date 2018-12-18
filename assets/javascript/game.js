@@ -13,6 +13,7 @@ $(document).ready(function start() {
         $("#currentScoreHTML").html(`Current Score: ${currentScore}`);
         if (currentScore == desiredScore) {
             wins++;
+            alert("you won!");
             $("#winsHTML").html(`Wins: ${wins}`);
             desiredScore = (Math.floor(Math.random() * 100) + 1), crystal1Value = (Math.floor(Math.random() * 10) + 1), crystal2Value = (Math.floor(Math.random() * 10) + 1),
                 crystal3Value = (Math.floor(Math.random() * 10) + 1), crystal4Value = (Math.floor(Math.random() * 10) + 1), currentScore = 0;
@@ -34,6 +35,7 @@ $(document).ready(function start() {
         $("#currentScoreHTML").html(`Current Score: ${currentScore}`);
         if (currentScore == desiredScore) {
             wins++;
+            alert("you won!");
             $("#winsHTML").html(`Wins: ${wins}`);
             desiredScore = (Math.floor(Math.random() * 100) + 1), crystal1Value = (Math.floor(Math.random() * 10) + 1), crystal2Value = (Math.floor(Math.random() * 10) + 1),
                 crystal3Value = (Math.floor(Math.random() * 10) + 1), crystal4Value = (Math.floor(Math.random() * 10) + 1), currentScore = 0;
@@ -55,6 +57,7 @@ $(document).ready(function start() {
         $("#currentScoreHTML").html(`Current Score: ${currentScore}`);
         if (currentScore == desiredScore) {
             wins++;
+            alert("you won!");
             $("#winsHTML").html(`Wins: ${wins}`);
             desiredScore = (Math.floor(Math.random() * 100) + 1), crystal1Value = (Math.floor(Math.random() * 10) + 1), crystal2Value = (Math.floor(Math.random() * 10) + 1),
                 crystal3Value = (Math.floor(Math.random() * 10) + 1), crystal4Value = (Math.floor(Math.random() * 10) + 1), currentScore = 0;
@@ -76,6 +79,7 @@ $(document).ready(function start() {
         $("#currentScoreHTML").html(`Current Score: ${currentScore}`);
         if (currentScore == desiredScore) {
             wins++;
+            alert("you won!");
             $("#winsHTML").html(`Wins: ${wins}`);
             desiredScore = (Math.floor(Math.random() * 100) + 1), crystal1Value = (Math.floor(Math.random() * 10) + 1), crystal2Value = (Math.floor(Math.random() * 10) + 1),
                 crystal3Value = (Math.floor(Math.random() * 10) + 1), crystal4Value = (Math.floor(Math.random() * 10) + 1), currentScore = 0;
